@@ -14,7 +14,11 @@ import org.jboss.logging.annotations.Pos;
 import java.net.URI;
 import java.util.List;
 
-@Path("api/v1/products")
+
+// TODO: Implement custom authentication and authorization next time.
+
+
+@Path("/api/v1/products")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
 @RequiredArgsConstructor
